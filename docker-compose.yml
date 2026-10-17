@@ -8,6 +8,8 @@ services:
       - mariadb
 
   nginx:
+    ports:
+      - "80:80"
     build: ./docker-config/nginx
     container_name: redis-nginx
     volumes:
