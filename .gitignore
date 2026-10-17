@@ -1,0 +1,22 @@
+/.env
+/docker-config/mariadb/data/
+src/.rcs/
+docker-config/nginx/certs/
+/renew.log
+
+# Environment variables
+.env
+.env
+
+# Laravel
+/src/vendor/
+/src/node_modules/
+/src/storage/logs/*
+/src/bootstrap/cache/*.php
+
+# Database and Redis data
+/docker-config/mariadb/data/
+/docker-config/redis/data/
+
+# OS
+.DS_Store
